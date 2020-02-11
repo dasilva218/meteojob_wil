@@ -70,7 +70,8 @@ label, input{
 }
 .c__mdp input{
 	border: none;
-	flex: 1 0 0;
+    flex: 1 0 0;
+    outline: none;
 }
 .c__mdp input::placeholder{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
