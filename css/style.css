@@ -7,7 +7,7 @@ body{
 	font-family: "Open Sans",Arial,sans-serif;
   font-size: .875rem;
 	line-height: 1.42857143;
-	background-image: url(../img/meteojob.png);
+	background-image: url(../img/imagefl.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -138,10 +138,11 @@ legend{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 5%;
 }
 .sub > input[type="submit"]{
     margin: 6px auto;
-    padding: 10px 25px;
+    padding: 15px 25px;
     color: #ffffff;
     background-color: #3498db;
     outline: none;
@@ -153,6 +154,7 @@ legend{
 
 .term__field{
     display: flex;
+	margin-top: 15px;
 }
 
 .term__field > span:first-child{
@@ -180,9 +182,9 @@ legend{
 
 .btn--switch label{
     display: inline-block;
-    padding: 2px;
     font-family: var(--font-label);
     color: transparent;
+		padding: 10px;
 }
 
 #term:not(:checked) ~ .btn__refused{
@@ -191,7 +193,7 @@ legend{
 }
 
 #term:checked ~ .btn__accepted{
-    background-color: #0964ee;
+    background-color: #3498db;
     color: #ffffff;
 }
 
